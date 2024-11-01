@@ -1,15 +1,15 @@
 import swaggerJSDoc, { Options } from "swagger-jsdoc";
 const swaggerOptions:  Options = {
-    Definition: {
+    definition: {
         openapi: "3.0.0",
         info: {
-            tittle: "Backend Service API - Emmanuel Cardona",
+            title: "Backend Service API - Emmanuel Cardona",
             version: "1.0.0",
             description: "API para Catálogo De Productos"
         },
         servers: [
             {
-                url: "https://localhost:3000/"
+                url: "http://localhost:3000/"
             }
         ]
     },
